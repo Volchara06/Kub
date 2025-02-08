@@ -1,0 +1,39 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Пример фона */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dice-container {
+    margin-bottom: 30px;
+  }
+  
+  .dice-image {
+    width: 150px; /* Размер изображения */
+    height: 150px;
+    border: 1px solid #ccc; /* Небольшая рамка */
+    border-radius: 10px;
+  }
+  
+  .roll-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Зеленый цвет */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+  }
+  
+  .roll-button:hover {
+    background-color: #3e8e41;
+  }
